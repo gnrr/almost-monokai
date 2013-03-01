@@ -36,7 +36,8 @@
       (foreground-color . "#F8F8F2")
       (cursor-color . "#DAD085"))
      (default ((t (nil))))
-     (modeline ((t (:background "white" :foreground "black" :box (:line-width 1 :style released-button)))))
+;     (modeline ((t (:background "white" :foreground "black" :box (:line-width 1 :style released-button)))))
+     (modeline ((t (:background "#CCCC99" :foreground "black" :box (:line-width 1 :style released-button)))))
      (font-lock-builtin-face ((t (:foreground "#A6E22A"))))
      (font-lock-comment-face ((t (:italic t :foreground "#75715D"))))
      (font-lock-constant-face ((t (:foreground "#A6E22A"))))
@@ -49,7 +50,8 @@
      (font-lock-warning-face ((t (:bold t :foreground "#FD5FF1"))))
      (highlight-80+ ((t (:background "#D62E00"))))
      (hl-line ((t (:background "#1A1A1A"))))
-     (region ((t (:background "#6DC5F1"))))
+;     (region ((t (:background "#6DC5F1"))))
+     (region ((t (:background "#0D628C"))))
      (ido-subdir ((t (:foreground "#F1266F"))))
     )
   )
@@ -57,3 +59,4 @@
 (provide 'color-theme-almost-monokai)
 ;---------------
 ; Code end.
+
